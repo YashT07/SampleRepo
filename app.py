@@ -4,6 +4,11 @@ from flask import render_template, request, Flask,Response,url_for
 import json
 from formFields import Clinic
 
+#function by rohit to add two numbers
+def addNum(num1, num2):
+    summation = num1+ num2
+    reutrn summation
+
 app = Flask(__name__)
 app.config["SECRET_KEY"] = 'ypt07'
 names = []
