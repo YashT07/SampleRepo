@@ -7,7 +7,10 @@ from formFields import Clinic
 #function by rohit to add two numbers
 def addNum(num1, num2):
     summation = num1+ num2
-    reutrn summation
+    reutrnsummation
+    
+def showButton(button1):
+    print("button code added")
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = 'ypt07'
